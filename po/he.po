@@ -3,22 +3,23 @@
 # This file is distributed under the same license as the fcitx5-kkc package.
 #
 # Translators:
-# Omer I.S. <omeritzicschwartz@gmail.com>, 2020
+# 63f334ffc0709ba0fc2361b80bf3c0f0_00ffd1e <ab96c93ca0ac55ba7fa06385427e60dd_878890>, 2020
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx5-kkc\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-12-10 01:10+0000\n"
+"POT-Creation-Date: 2024-03-05 20:24+0000\n"
 "PO-Revision-Date: 2017-12-19 22:05+0000\n"
-"Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>, 2020\n"
-"Language-Team: Hebrew (https://www.transifex.com/fcitx/teams/12005/he/)\n"
+"Last-Translator: 63f334ffc0709ba0fc2361b80bf3c0f0_00ffd1e "
+"<ab96c93ca0ac55ba7fa06385427e60dd_878890>, 2020\n"
+"Language-Team: Hebrew (https://app.transifex.com/fcitx/teams/12005/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
-"1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
+"1 == 0) ? 1: 2;\n"
 
 #. i18n: file: gui/addshortcutdialog.ui:42
 #. i18n: ectx: property (text), widget (QLabel, commandLabel_)
@@ -96,7 +97,7 @@ msgstr ""
 msgid "Dictionary Manager"
 msgstr ""
 
-#: gui/shortcutmodel.cpp:32 src/kkc.cpp:97 src/kkc.h:37
+#: gui/shortcutmodel.cpp:32 src/kkc.cpp:108 src/kkc.h:37
 msgid "Direct input"
 msgstr ""
 
@@ -113,11 +114,11 @@ msgstr ""
 msgid "Function"
 msgstr ""
 
-#: gui/shortcutmodel.cpp:31 src/kkc.cpp:94 src/kkc.h:36
+#: gui/shortcutmodel.cpp:31 src/kkc.cpp:105 src/kkc.h:36
 msgid "Half width Katakana"
 msgstr ""
 
-#: gui/shortcutmodel.cpp:31 src/kkc.cpp:92 src/kkc.h:35
+#: gui/shortcutmodel.cpp:31 src/kkc.cpp:103 src/kkc.h:35
 msgid "Hiragana"
 msgstr ""
 
@@ -141,11 +142,19 @@ msgstr "יפנית"
 msgid "Japanese input method"
 msgstr ""
 
+#: org.fcitx.Fcitx5.Addon.Kkc.metainfo.xml.in:7
+msgid "KKC"
+msgstr ""
+
+#: src/kkc-addon.conf.in.in:3
+msgid "KKC Addon of Fcitx"
+msgstr ""
+
 #: src/kkc.conf.in:3
 msgid "Kana Kanji"
 msgstr ""
 
-#: gui/shortcutmodel.cpp:31 src/kkc.cpp:93 src/kkc.h:35
+#: gui/shortcutmodel.cpp:31 src/kkc.cpp:104 src/kkc.h:35
 msgid "Katakana"
 msgstr ""
 
@@ -161,15 +170,7 @@ msgstr ""
 msgid "Key to add is conflict with existing shortcut."
 msgstr ""
 
-#: org.fcitx.Fcitx5.Addon.Kkc.metainfo.xml.in:7
-msgid "Kkc"
-msgstr ""
-
-#: src/kkc-addon.conf.in:3
-msgid "Kkc Addon of Fcitx"
-msgstr ""
-
-#: gui/shortcutmodel.cpp:32 src/kkc.cpp:95 src/kkc.h:32 src/kkc.h:36
+#: gui/shortcutmodel.cpp:32 src/kkc.cpp:106 src/kkc.h:32 src/kkc.h:36
 msgid "Latin"
 msgstr ""
 
@@ -208,7 +209,7 @@ msgstr ""
 msgid "Save Changes"
 msgstr "שמירת השינויים"
 
-#: gui/adddictdialog.cpp:67
+#: gui/adddictdialog.cpp:66
 msgid "Select Dictionary Directory"
 msgstr ""
 
@@ -242,7 +243,7 @@ msgstr "משתמש"
 msgid "Vertical"
 msgstr ""
 
-#: gui/shortcutmodel.cpp:32 src/kkc.cpp:96 src/kkc.h:32 src/kkc.h:37
+#: gui/shortcutmodel.cpp:32 src/kkc.cpp:107 src/kkc.h:32 src/kkc.h:37
 msgid "Wide latin"
 msgstr ""
 

@@ -4,23 +4,23 @@
 #
 # Translators:
 # csslayer <wengxt@gmail.com>, 2017
-# Dmitry <dmitrydmitry761@gmail.com>, 2022
+# Dmitry <dmitrydmitry761@gmail.com>, 2024
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx5-kkc\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2022-01-31 20:24+0000\n"
+"POT-Creation-Date: 2024-04-16 20:26+0000\n"
 "PO-Revision-Date: 2017-12-19 22:05+0000\n"
-"Last-Translator: Dmitry <dmitrydmitry761@gmail.com>, 2022\n"
-"Language-Team: Russian (https://www.transifex.com/fcitx/teams/12005/ru/)\n"
+"Last-Translator: Dmitry <dmitrydmitry761@gmail.com>, 2024\n"
+"Language-Team: Russian (https://app.transifex.com/fcitx/teams/12005/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #. i18n: file: gui/addshortcutdialog.ui:42
 #. i18n: ectx: property (text), widget (QLabel, commandLabel_)
@@ -41,7 +41,7 @@ msgstr "&Режим ввода:"
 #: rc.cpp:12
 #, kde-format
 msgid "&Key:"
-msgstr "&Ключ:"
+msgstr "К&лавиша:"
 
 #. i18n: file: gui/adddictdialog.ui:42
 #. i18n: ectx: property (text), widget (QLabel, pathLabel_)
@@ -63,7 +63,7 @@ msgstr "Автокоррекция"
 
 #: src/kkc.h:84
 msgid "Candidate Layout"
-msgstr "Макет кандидата"
+msgstr "Расположение слов-кандидатов"
 
 #: src/kkc.h:96
 msgid "Candidates Page Down"
@@ -117,7 +117,7 @@ msgstr "Функция"
 
 #: gui/shortcutmodel.cpp:31 src/kkc.cpp:105 src/kkc.h:36
 msgid "Half width Katakana"
-msgstr "Полуширинная катакана"
+msgstr "Полуширинная Катакана"
 
 #: gui/shortcutmodel.cpp:31 src/kkc.cpp:103 src/kkc.h:35
 msgid "Hiragana"
@@ -143,6 +143,14 @@ msgstr "Японский"
 msgid "Japanese input method"
 msgstr "Японский метод ввода"
 
+#: org.fcitx.Fcitx5.Addon.Kkc.metainfo.xml.in:7
+msgid "KKC"
+msgstr "KKC"
+
+#: src/kkc-addon.conf.in.in:3
+msgid "KKC Addon of Fcitx"
+msgstr "Дополнение KKC для Fcitx"
+
 #: src/kkc.conf.in:3
 msgid "Kana Kanji"
 msgstr "Кана кандзи"
@@ -162,14 +170,6 @@ msgstr "Конфликт клавиш"
 #: gui/shortcutwidget.cpp:92
 msgid "Key to add is conflict with existing shortcut."
 msgstr "Клавиша, которую вы хотите назначить, конфликтует с существующей."
-
-#: org.fcitx.Fcitx5.Addon.Kkc.metainfo.xml.in:7
-msgid "Kkc"
-msgstr "Kkc"
-
-#: src/kkc-addon.conf.in.in:3
-msgid "Kkc Addon of Fcitx"
-msgstr "Дополнение Kkc для Fcitx"
 
 #: gui/shortcutmodel.cpp:32 src/kkc.cpp:106 src/kkc.h:32 src/kkc.h:36
 msgid "Latin"

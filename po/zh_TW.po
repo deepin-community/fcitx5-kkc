@@ -6,15 +6,17 @@
 # csslayer <wengxt@gmail.com>, 2017
 # 黃柏諺 <s8321414@gmail.com>, 2017
 # bruh, 2020
+# Neko ◣ 0xFF, 2022
+# Haowei Hsu, 2023
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx5-kkc\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-11-29 00:02+0100\n"
+"POT-Creation-Date: 2023-08-07 20:24+0000\n"
 "PO-Revision-Date: 2017-12-19 22:05+0000\n"
-"Last-Translator: bruh, 2020\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/fcitx/teams/12005/"
+"Last-Translator: Haowei Hsu, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/fcitx/teams/12005/"
 "zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +65,7 @@ msgstr "自動校正"
 
 #: src/kkc.h:84
 msgid "Candidate Layout"
-msgstr "候選佈局"
+msgstr "候選配置"
 
 #: src/kkc.h:96
 msgid "Candidates Page Down"
@@ -98,7 +100,7 @@ msgstr "字典"
 msgid "Dictionary Manager"
 msgstr "字典管理"
 
-#: gui/shortcutmodel.cpp:32 src/kkc.cpp:97 src/kkc.h:37
+#: gui/shortcutmodel.cpp:32 src/kkc.cpp:108 src/kkc.h:37
 msgid "Direct input"
 msgstr "直接輸入"
 
@@ -115,11 +117,11 @@ msgstr "表單"
 msgid "Function"
 msgstr "功能"
 
-#: gui/shortcutmodel.cpp:31 src/kkc.cpp:94 src/kkc.h:36
+#: gui/shortcutmodel.cpp:31 src/kkc.cpp:105 src/kkc.h:36
 msgid "Half width Katakana"
 msgstr "半形片假名"
 
-#: gui/shortcutmodel.cpp:31 src/kkc.cpp:92 src/kkc.h:35
+#: gui/shortcutmodel.cpp:31 src/kkc.cpp:103 src/kkc.h:35
 msgid "Hiragana"
 msgstr "平假名"
 
@@ -143,11 +145,19 @@ msgstr "日語"
 msgid "Japanese input method"
 msgstr "日語輸入法"
 
+#: org.fcitx.Fcitx5.Addon.Kkc.metainfo.xml.in:7
+msgid "KKC"
+msgstr "KKC"
+
+#: src/kkc-addon.conf.in.in:3
+msgid "KKC Addon of Fcitx"
+msgstr "Fcitx5 的 KKC 附加元件"
+
 #: src/kkc.conf.in:3
 msgid "Kana Kanji"
 msgstr "假名漢字"
 
-#: gui/shortcutmodel.cpp:31 src/kkc.cpp:93 src/kkc.h:35
+#: gui/shortcutmodel.cpp:31 src/kkc.cpp:104 src/kkc.h:35
 msgid "Katakana"
 msgstr "片假名"
 
@@ -163,15 +173,7 @@ msgstr "按鍵衝突"
 msgid "Key to add is conflict with existing shortcut."
 msgstr "新增的按鍵和現有的快捷鍵衝突。"
 
-#: org.fcitx.Fcitx5.Addon.Kkc.metainfo.xml.in:7
-msgid "Kkc"
-msgstr "Kkc"
-
-#: src/kkc-addon.conf.in:3
-msgid "Kkc Addon of Fcitx"
-msgstr "Fcitx 的 Kkc 附加元件"
-
-#: gui/shortcutmodel.cpp:32 src/kkc.cpp:95 src/kkc.h:32 src/kkc.h:36
+#: gui/shortcutmodel.cpp:32 src/kkc.cpp:106 src/kkc.h:32 src/kkc.h:36
 msgid "Latin"
 msgstr "拉丁文"
 
@@ -210,7 +212,7 @@ msgstr "規則編輯器"
 msgid "Save Changes"
 msgstr "儲存變更"
 
-#: gui/adddictdialog.cpp:67
+#: gui/adddictdialog.cpp:66
 msgid "Select Dictionary Directory"
 msgstr "選擇字典目錄"
 
@@ -246,7 +248,7 @@ msgstr "使用者"
 msgid "Vertical"
 msgstr "縱向"
 
-#: gui/shortcutmodel.cpp:32 src/kkc.cpp:96 src/kkc.h:32 src/kkc.h:37
+#: gui/shortcutmodel.cpp:32 src/kkc.cpp:107 src/kkc.h:32 src/kkc.h:37
 msgid "Wide latin"
 msgstr "全形英文"
 

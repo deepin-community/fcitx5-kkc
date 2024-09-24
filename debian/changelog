@@ -1,18 +1,73 @@
-fcitx5-kkc (5.0.8-1) UNRELEASED; urgency=medium
+fcitx5-kkc (5.1.4-1) unstable; urgency=medium
 
-  * update
+  * New upstream release.
 
- -- Debian Input Method Team <debian-input-method@lists.debian.org>  Tue, 26 Apr 2022 10:22:50 +0800
+ -- Boyuan Yang <byang@debian.org>  Sat, 01 Jun 2024 08:45:31 -0400
+
+fcitx5-kkc (5.1.3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 15 May 2024 14:11:23 -0400
+
+fcitx5-kkc (5.1.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Mon, 18 Mar 2024 23:30:03 -0400
+
+fcitx5-kkc (5.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 10 Jan 2024 16:09:11 -0500
+
+fcitx5-kkc (5.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/patches: Dropped, applied upstream.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 22 Aug 2023 08:57:52 -0400
+
+fcitx5-kkc (5.0.12-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster (oldstable):
+    + Build-Depends: Drop versioned constraint on cmake.
+
+  [ Boyuan Yang ]
+  * New upstream release.
+  * debian/patches: Apply upstream patch to fix FTBFS due to C++11.
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 17 Jun 2023 09:44:42 -0400
+
+fcitx5-kkc (5.0.11-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 23 Nov 2022 15:39:13 -0500
+
+fcitx5-kkc (5.0.10-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 13 Jul 2022 09:53:35 -0400
+
+fcitx5-kkc (5.0.9-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 28 May 2022 00:21:44 -0400
 
 fcitx5-kkc (5.0.8-1) unstable; urgency=medium
 
-  * New upstream release. 
+  * New upstream release.
 
  -- Boyuan Yang <byang@debian.org>  Wed, 16 Mar 2022 11:43:13 -0400
 
 fcitx5-kkc (5.0.7-1) unstable; urgency=medium
 
-  * New upstream release. 
+  * New upstream release.
 
  -- Boyuan Yang <byang@debian.org>  Sun, 06 Feb 2022 17:32:48 -0500
 
